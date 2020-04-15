@@ -1,0 +1,6 @@
+module Pods_RNMultiLanguage_RNMultiLanguageTests {
+  umbrella header "Pods-RNMultiLanguage-RNMultiLanguageTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

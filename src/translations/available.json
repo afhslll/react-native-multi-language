@@ -1,0 +1,14 @@
+[
+    {
+        "tag": "en",
+        "name": "English"
+    },
+    {
+        "tag": "ar",
+        "name": "العربية"
+    },
+    {
+        "tag": "ms",
+        "name": "Melayu"
+    }
+]

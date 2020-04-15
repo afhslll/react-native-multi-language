@@ -1,0 +1,6 @@
+module Pods_RNMultiLanguage {
+  umbrella header "Pods-RNMultiLanguage-umbrella.h"
+
+  export *
+  module * { export * }
+}
