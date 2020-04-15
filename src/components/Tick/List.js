@@ -40,7 +40,7 @@ const TcList = (props) => {
 const styles = StyleSheet.create({
     buttonContainer: {
         width: '100%',
-        paddingHorizontal: 14,
+        paddingHorizontal: 12,
         paddingVertical: 8,
         flexDirection: 'row',
         borderRadius: 8,

@@ -8,7 +8,7 @@ import langAvailable from '@translations/available.json'
 
 const SettingScreen = (props) => {
 
-  const { translate, locale, setLocale } = useContext(LocalizationContext)
+  const { locale, setLocale } = useContext(LocalizationContext)
 
   const changeLanguage = (lang) => {
     setLocale(lang.tag)
@@ -25,7 +25,7 @@ const SettingScreen = (props) => {
                 title={lang.name}
                 onPress={() => changeLanguage(lang)}
                 isDone={lang.tag == locale}
-                containerStyle={{ height: 50 }}
+                containerStyle={{ height: 54 }}
               />
             )
           }

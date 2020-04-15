@@ -4,7 +4,10 @@ import { StyleSheet, ScrollView } from 'react-native'
 const ScContainer = (props) => {
     return (
         <ScrollView
-            contentContainerStyle={styles.container}
+            contentContainerStyle={[
+                styles.container,
+                props.containerStyle
+            ]}
             showsVerticalScrollIndicator={false}
         >
             {props.children}
